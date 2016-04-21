@@ -1,0 +1,137 @@
+.btn-main {
+	background: #707070;
+}
+
+.home-subscribe {
+    background: #707070;
+}
+
+.btn-white {
+	background: #fff;
+	color: #707070;
+}
+
+.nav > li > a:hover ,
+.nav > li.active > a {
+	color: #707070 !important;
+}
+
+.nav > li:last-child > a:hover {
+	color: #fff !important;
+	border-color: #707070 !important;
+	background: #707070 !important;
+}
+
+.sub-form h5 {
+	background: #707070;
+}
+
+#intro.intro3 h6 a:hover {
+	color:#707070;
+}
+
+.intro-newsletter button {
+	background: #707070;
+}
+
+.dual-btns a {
+	background: #707070;
+}
+
+.dual-btns a:nth-child(2) {
+	background: #585757;
+}
+
+.app-btn {
+	background: #707070;
+}
+
+.service-content span {
+	color: #707070;
+	border: 2px solid #707070;
+}
+
+.service-content:hover span {
+	background: #707070;
+}
+
+.service-content a {
+	color: #707070;
+}
+
+#features {
+	background: #707070;
+}
+
+#features h3 {
+	color: #707070;
+}
+
+.dual-info {
+	background: #707070;
+}
+
+.wrap-content {
+	background: #707070;
+}
+
+.quote-info p:before {
+	color: #707070;
+}
+
+.quote-info cite span {
+	color: #707070;
+}
+
+.panel-body {
+	background: #707070;
+}
+
+#services2 i {
+	background: #707070;
+}
+
+.wrap {
+	background: #707070;
+}
+
+.wrap a span {
+	color: #707070;
+}
+
+.statusMessage i {
+	color:#707070;
+}
+
+.f-social a:hover {
+	color: #707070;
+}
+
+.footer-copy p a {
+	color:#707070;
+}
+
+.backtotop {
+	color:#707070;
+}
+
+.close-modal:hover {
+	background: #707070;
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before { color:#707070; }
+.slick-dots li.slick-active button:before { color: #707070;}
+
+#quote-slider .owl-controls .owl-page span{
+	background: #707070;
+}
+
+.faq-content .panel-title a:hover {
+	color: #707070;
+}
+
+
+
+
+
+

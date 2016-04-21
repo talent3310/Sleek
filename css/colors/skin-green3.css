@@ -1,0 +1,137 @@
+.btn-main {
+	background: #b3c211;
+}
+
+.home-subscribe {
+    background: #b3c211;
+}
+
+.btn-white {
+	background: #fff;
+	color: #b3c211;
+}
+
+.nav > li > a:hover ,
+.nav > li.active > a {
+	color: #b3c211 !important;
+}
+
+.nav > li:last-child > a:hover {
+	color: #fff !important;
+	border-color: #b3c211 !important;
+	background: #b3c211 !important;
+}
+
+.sub-form h5 {
+	background: #b3c211;
+}
+
+#intro.intro3 h6 a:hover {
+	color:#b3c211;
+}
+
+.intro-newsletter button {
+	background: #b3c211;
+}
+
+.dual-btns a {
+	background: #b3c211;
+}
+
+.dual-btns a:nth-child(2) {
+	background: #909c0f;
+}
+
+.app-btn {
+	background: #b3c211;
+}
+
+.service-content span {
+	color: #b3c211;
+	border: 2px solid #b3c211;
+}
+
+.service-content:hover span {
+	background: #b3c211;
+}
+
+.service-content a {
+	color: #b3c211;
+}
+
+#features {
+	background: #b3c211;
+}
+
+#features h3 {
+	color: #b3c211;
+}
+
+.dual-info {
+	background: #b3c211;
+}
+
+.wrap-content {
+	background: #b3c211;
+}
+
+.quote-info p:before {
+	color: #b3c211;
+}
+
+.quote-info cite span {
+	color: #b3c211;
+}
+
+.panel-body {
+	background: #b3c211;
+}
+
+#services2 i {
+	background: #b3c211;
+}
+
+.wrap {
+	background: #b3c211;
+}
+
+.wrap a span {
+	color: #b3c211;
+}
+
+.statusMessage i {
+	color:#b3c211;
+}
+
+.f-social a:hover {
+	color: #b3c211;
+}
+
+.footer-copy p a {
+	color:#b3c211;
+}
+
+.backtotop {
+	color:#b3c211;
+}
+
+.close-modal:hover {
+	background: #b3c211;
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before { color:#b3c211; }
+.slick-dots li.slick-active button:before { color: #b3c211;}
+
+#quote-slider .owl-controls .owl-page span{
+	background: #b3c211;
+}
+
+.faq-content .panel-title a:hover {
+	color: #b3c211;
+}
+
+
+
+
+
+
