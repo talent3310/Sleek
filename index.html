@@ -725,3 +725,34 @@
 
 </body>
 </html>
+while(1) {
+  count ++;
+  if(count > 10) {// wait 3 secs
+    break;
+  }
+  if(!$('input.mod-KambiBC-stake-input.mod-KambiBC-js-stake-input[value=""]').length) break;
+
+  $('section.mod-KambiBC-betslip-outcome__stake-container').each(function( index ) {
+   
+    if(!$(this).find('input.mod-KambiBC-stake-input.mod-KambiBC-js-stake-input').val()) {
+      var odds = $(this).find('span.mod-KambiBC-betslip-outcome__odds').text();
+      $(this).find('input.mod-KambiBC-stake-input.mod-KambiBC-js-stake-input').sendkeys(stakeForOdds(odds));
+    }
+  });
+  await new Promise(function(resolve) { setTimeout(resolve, 300) });
+}
+
+
+
+function stakeForOdds(odds) {
+  var odds = parseFloat(odds);
+  var stake;
+  if(odds > 3.5) stake = 2;
+  else if(odds > 2.6) stake = 5;
+  else if(odds > 2.4) stake = 10;
+  else if(odds > 2) stake = 15;
+  else if(odds > 1.7) stake = 25;
+  else if(odds > 1.4) stake = 35;
+  else if(odds > 1) stake = 50;
+  return stake.toString();
+}
